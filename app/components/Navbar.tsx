@@ -33,7 +33,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/contact"
-            className="bg-accent text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-accent-dark transition-colors"
+            className="bg-accent text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-accent-dark hover:scale-105 active:scale-95 transition-all shadow-sm hover:shadow-md hover:shadow-accent/20"
           >
             Få et tilbud
           </Link>
